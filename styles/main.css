@@ -1,0 +1,79 @@
+body {
+	margin: 0;
+	background: #EEE;
+	font-family: arial;
+}
+
+h1, h2 {
+	margin: 0;
+	color: #333;
+}
+
+p {
+	margin: 0;
+	background: #CCC;
+	color: black;
+	padding: 5px;
+}
+
+a {
+	color: blue;
+}
+
+header {
+	background: #999;
+	padding: 15px 0 0 0;
+	margin: 0;
+}
+
+header h1 {
+	display: inline;
+	margin: 0;
+}
+
+header nav {
+	display: inline;
+	margin: 0;
+}
+
+header nav ul {
+	display: inline;
+	padding: 0 0 0 15px;
+	margin: 0;
+}
+
+header nav ul li {
+	list-style-type: none;
+	display: inline-block;
+	background: black;
+	color: white;
+	padding: 5px 15px;
+	margin: 0;
+}
+
+header nav ul li a {
+	color: white;
+}
+
+.row {
+
+}
+
+.col {
+
+}
+
+.textbox {
+	margin: 0;
+	background: #CCC;
+	color: black;
+	padding: 5px;
+}
+
+footer {
+	clear: both;
+}
+
+footer p {
+	background: none;
+}
