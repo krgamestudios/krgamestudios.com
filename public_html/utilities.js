@@ -1,8 +1,30 @@
-//PARAM: fname = file to load with an ajax request
+//global markdown object and configuration
+var markdown = window.markdownit()
+
+  //allow HTML-style comments
+  .use(window.markdownitInlineComments)
+
+  //configure for semantic-style visibility controls
+  .use(window.markdownitContainer, 'mobileOnly', {
+    validate: function(params) {
+      return params.trim().match(/^mobileOnly$/);
+    },
+    render: function (tokens, idx) {
+      if (tokens[idx].nesting === 1) {
+        //opening tag
+        return '<div class="ui mobile only grid">';
+      } else {
+        // closing tag
+        return '</div>';
+      }
+    }
+  });
+
+//PARAM: fname = file to load with an ajax requesti
 //PARAM: node = DOM node to store the resulting data
 function printHTML(fname, node) {
   var request = new XMLHttpRequest();
-  request.open('GET', fname, true);
+  request.open('POST', fname, true);
   request.onreadystatechange = function() {
     if (request.readyState !== 4) {
       return 0;
@@ -23,14 +45,14 @@ function printHTML(fname, node) {
 //PARAM: node = DOM node to store the resulting data
 function printMarkdown(fname, node) {
   var request = new XMLHttpRequest();
-  request.open('GET', fname, true);
+  request.open('POST', fname, true);
   request.onreadystatechange = function() {
     if (request.readyState !== 4) {
       return 0;
     }
 
     if (request.status === 200) {
-      node.innerHTML = markdown.toHTML(request.responseText);
+      node.innerHTML = markdown.render(request.responseText);
     }
     else {
       console.log("printMarkdown status:", request.status);
@@ -44,7 +66,7 @@ function printMarkdown(fname, node) {
 //PARAM: node = DOM node to store the resulting data
 function printCSV(fname, node) {
   var request = new XMLHttpRequest();
-  request.open('GET', fname, true);
+  request.open('POST', fname, true);
   request.onreadystatechange = function() {
     if (request.readyState !== 4) {
       return 0;
@@ -140,6 +162,8 @@ function buildSearchBar(searchCallback, callbackArg) {
   button.innerHTML = "Search";
   button.onclick = () => { searchCallback(input.value, callbackArg); };
   div.appendChild(button);
+  //hack
+  input.onkeypress = (e) => { if (e && e.keyCode == 13) { button.click(); } };
   return div;
 }
 
