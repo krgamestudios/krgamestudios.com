@@ -1,1 +1,1 @@
-My name is Kayne Ruse, I'm a professional web developer, and a hobbyist game developer. I'd like that to be the other way around, but I'm working on it.
+My name is Kayne Ruse, I've been making games since I was 13, and I won't stop until I'm one of the greats.
