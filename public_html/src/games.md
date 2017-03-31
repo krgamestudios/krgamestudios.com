@@ -1,6 +1,8 @@
 Tortuga
 ===
 
+(This project is currently on indefinite hold for personal reasons.)
+
 Tortuga is a 2D MMORPG featuring permadeath, with an emphasis on multiplayer cooperation, exploration and customization. The game runs on customizable public and private servers.
 
 This game is inspired by classic 2D RPGs (Final Fantasy, The Legend of Zelda), as well as more modern sandboxes and MMOs (Minecraft, EVE Online). This project is currently independently created and funded, with the goal of creating a game that will engage the players and inspire a large community.
@@ -9,15 +11,10 @@ This game is inspired by classic 2D RPGs (Final Fantasy, The Legend of Zelda), a
 * [Tortuga for Linux (Tortuga-linux.tar)](dl/Tortuga-linux.tar)
 * [Tortuga Source Code](https://github.com/Ratstail91/Tortuga)
 
-Mecha
-===
-
-Fight your way across vast expanses, conquer enemy batallions, and survive in this world of immense mechas - wild combat machines commanded by the best pilots this side of the catastrophe.
-
-* [Mecha Main Site](http://mecha.krgamestudios.com)
-
 Plains
 ===
+
+(This project was only ever a prototype.)
 
 This is a geolocation game. What is that, you ask? It get's you off your butt and out into the world! Track down quests on the map screen by searching your local neighbourhood, university or high security detention center for the red markers, and then complete the quests you've collected for rewards!
 
