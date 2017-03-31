@@ -15,7 +15,9 @@ A test website, built during my internship, demonstrating my understanding of th
 * Babel
 * npm
 
-* [Example Website](https://island.krgamestudios.com)
+<!-- break -->
+
+* [Example Website](http://island.krgamestudios.com)
 
 TurtleMap
 ===
@@ -36,4 +38,4 @@ This Website!
 
 This website is based off of the same tech as the Mecha: Immense Warfare website, which in turn was designed as a simple reference to be looked up on mobile. Make of that what you will.
 
-* [Website Source Code](https://github.com/krgamestudios/krgamestudios.github.io)
+* [Website Source Code](https://github.com/krgamestudios/krgamestudios.com)
