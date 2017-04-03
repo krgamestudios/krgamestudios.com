@@ -1,24 +1,3 @@
-Hello World
-===
-
-A test website, built during my internship, demonstrating my understanding of the following tools:
-
-* ReactJS
-* React-Redux
-* Redux-Thunk
-* Semantic-UI
-* d3
-* Webpack
-* Karma
-* JasmineJS
-* Istanbul
-* Babel
-* npm
-
-<!-- break -->
-
-* [Example Website](http://island.krgamestudios.com)
-
 TurtleMap
 ===
 
