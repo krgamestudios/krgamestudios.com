@@ -1,3 +1,6 @@
+<a href="https://facebook.com/KRGameStudios"><img src="https://en.facebookbrand.com/wp-content/uploads/2016/05/FB-fLogo-Blue-broadcast-2.png" alt="Facebook" width="32" height="32"></a>
+<a href="https://twitter.com/KRGameStudios"><img src="img/twitter.png" alt="Twitter" width="32" height="32"></a>
+
 Welcome!
 ===
 
@@ -7,5 +10,3 @@ Mecha: Immense Warfare is a trading card game where the goal is to move across t
 
 Click the buttons above to see my other projects.
 
-<a href="https://facebook.com/KRGameStudios"><img src="https://en.facebookbrand.com/wp-content/uploads/2016/05/FB-fLogo-Blue-broadcast-2.png" alt="Facebook" width="32" height="32"></a>
-<a href="https://twitter.com/KRGameStudios"><img src="img/twitter.png" alt="Twitter" width="32" height="32"></a>
