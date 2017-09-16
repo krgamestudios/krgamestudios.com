@@ -6,6 +6,13 @@ No, I'm not claiming to have made GitHub, rather, I use GitHub's features as a b
 * [Ratstail91](https://github.com/Ratstail91)
 * [KR Game Studios](https://github.com/krgamestudios)
 
+Internet Jukebox
+===
+
+This is a cooperative Jukebox page, where users can upload .mp3 files and listen to them together. If you don't like a song, you can delete it instead. This is currently in beta.
+
+* [Internet Jukebox](http://jukebox.krgamestudios.com/)
+
 TurtleMap
 ===
 
