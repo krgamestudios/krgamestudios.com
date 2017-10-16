@@ -1,3 +1,8 @@
+Adventure (Working Title)
+===
+
+This is a lightweight but fully featured tabletop RPG set in the same world as Labyrinth. It has yet to be playtested, or properly released.
+
 Labyrinth
 ===
 
