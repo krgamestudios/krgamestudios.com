@@ -17,7 +17,9 @@ This is a lightweight print-and-play game where your party explores deeper and d
 Adventure (Working Title)
 ===
 
-This is a lightweight but fully featured tabletop RPG set in the same world as Labyrinth. It has yet to be playtested, or properly released.
+This is a lightweight but fully featured tabletop RPG set in the same world as Labyrinth. Currently incomplete.
+
+* [Adventure System Reference Document](dl/adventure_SRD.pdf)
 
 The Portal
 ===
