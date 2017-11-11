@@ -1,7 +1,7 @@
 Adventure (Working Title)
 ===
 
-This is a lightweight but fully featured tabletop RPG set in the same world as Labyrinth. Currently incomplete.
+Inspired by a number of popular tabletop RPGs, this simple but fully featured RPG is designed to be easy to start and to play. It comes with a new setting baked in, filled with unique races and scenarios. This is currently in active development.
 
 * [Adventure System Reference Document](dl/adventure_SRD.pdf)
 
