@@ -4,20 +4,13 @@
 Welcome!
 ===
 
-My current projects are: Adventure and The Portal. Click the buttons above to see my other projects.
+My current projects is: Cast World. Click the buttons above to see my other projects.
 
-Adventure (Working Title)
+Can't Anyone Save The World?
 ===
+AKA "Cast World" for short.
 
-Inspired by a number of popular tabletop RPGs, this simple but fully featured RPG is designed to be easy to start and to play. It comes with a new setting baked in, filled with unique races and scenarios. This is currently in active development.
+Inspired by both classic and modern tabletop RPGs, this simple but fully featured RPG is designed to be quick to start with easy to intuit rules. It comes with a new setting baked in, filled with unique races and scenarios. This is currently in active development.
 
-* [Adventure System Reference Document](dl/adventure_SRD.pdf)
-
-The Portal
-===
-
-The Portal is a shallow clone of Facebook, tailored for D&D players. It's incomplete, but it already demonstrates my knowledge of ReactJS, NodeJS, MySQL and associated tools.
-
-* [The Portal](https://portal.yawning.xyz/)
-* [Source Code](https://github.com/krgamestudios/portal.yawning.xyz)
+* [Cast World System Reference Document](dl/castworld_SRD.pdf)
 

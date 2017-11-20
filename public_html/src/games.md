@@ -1,9 +1,11 @@
-Adventure (Working Title)
+Can't Anyone Save The World?
 ===
 
-Inspired by a number of popular tabletop RPGs, this simple but fully featured RPG is designed to be easy to start and to play. It comes with a new setting baked in, filled with unique races and scenarios. This is currently in active development.
+AKA "Cast World" for short.
 
-* [Adventure System Reference Document](dl/adventure_SRD.pdf)
+Inspired by both classic and modern tabletop RPGs, this simple but fully featured RPG is designed to be quick to start with easy to intuit rules. It comes with a new setting baked in, filled with unique races and scenarios. This is currently in active development.
+
+* [Cast World System Reference Document](dl/castworld_SRD.pdf)
 
 Labyrinth
 ===
