@@ -8,9 +8,10 @@ My current projects is: Cast World. Click the buttons above to see my other proj
 
 Can't Anyone Save The World?
 ===
+
 AKA "Cast World" for short.
 
-Inspired by both classic and modern tabletop RPGs, this simple but fully featured RPG is designed to be quick to start with easy to intuit rules. It comes with a new setting baked in, filled with unique races and scenarios. This is currently in active development.
+Inspired by both classic and modern tabletop RPGs, this simple but fully featured RPG is designed to be quick to start with easy to intuit rules. It comes with a new setting baked in, filled with unique races and scenarios. This is in the final stages of development.
 
-* [Cast World System Reference Document](dl/castworld_SRD.pdf)
+* Releases 8th January 2018 - Watch This Space
 

@@ -3,9 +3,9 @@ Can't Anyone Save The World?
 
 AKA "Cast World" for short.
 
-Inspired by both classic and modern tabletop RPGs, this simple but fully featured RPG is designed to be quick to start with easy to intuit rules. It comes with a new setting baked in, filled with unique races and scenarios. This is currently in active development.
+Inspired by both classic and modern tabletop RPGs, this simple but fully featured RPG is designed to be quick to start with easy to intuit rules. It comes with a new setting baked in, filled with unique races and scenarios. This is in the final stages of development.
 
-* [Cast World System Reference Document](dl/castworld_SRD.pdf)
+* Releases 8th January 2018 - Watch This Space
 
 Labyrinth
 ===
@@ -42,5 +42,6 @@ Plains
 
 This is a geolocation game. What is that, you ask? It get's you off your butt and out into the world! Track down quests on the map screen by searching your local neighbourhood, university or high security detention center for the red markers, and then complete the quests you've collected for rewards!
 
-* [Plains Main Site](https://plains.krgamestudios.com)
+* [Source Code](https://github.com/Ratstail91/Plains)
+* This game is no longer functional. Sorry!
 
