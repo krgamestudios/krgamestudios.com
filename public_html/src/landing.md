@@ -19,5 +19,6 @@ To make a new character, roll for stats, then choose a race, class and elemental
 
 The core rules also come bundled with a short adventure called "Verona Village", which demonstrates the core rules, and adds some new content as well as fleshing out a small part of the world. New adventures will be released on DriveThruRPG every two weeks, so check back often!
 
+* [Cast World Rules Preview](https://krgamestudios.com/dl/Rules_Preview.pdf)
 * [Cast World Store Page](http://www.drivethrurpg.com/product/230186/Cast-World-Cant-Anyone-Save-The-World)
 
