@@ -21,9 +21,9 @@ Prerequisites for classes have changed. They are as follows:
 
 Some spells are now marked as known or forbidden.
 
-Known spells are automatically available to all classes with that catagory of spells available; all other spells must be learned.
+Known spells are automatically available to all classes with that catagory of spells available (assuming you have the prerequisites). All other spells must be learned somehow.
 
-Forbidden spells are unavailable under normal learning conditions, and even knowledge of them is surpressed.
+Forbidden spells are strictly unavailable under normal circumstances, and even knowledge of them is surpressed.
 
 Known Spells:
 
