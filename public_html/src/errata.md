@@ -6,7 +6,7 @@ For Cast World v1.0.5
 Prerequisites for classes have changed. They are as follows:
 
 * Onion Knight: The character is below 16 years of age. Cannot be multiclassed.
-* Pauper: No base stat thst is 13 or above. Cannot be multiclassed.
+* Pauper: No base stat that is 13 or above. Cannot be multiclassed.
 * Fighter: STR 13 or above.
 * Privateer: DEX 13 or above.
 * Soldier: CON 13 or above.
