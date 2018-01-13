@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/semantic-ui/2.2.8/semantic.min.css">
+    <link rel="stylesheet" type="text/css" href="styles/shared.css" />
+  </head>
+
+    <!-- body content -->
+    <div class="ui container" id="content">Loading content... (this website requires Javascript to function)</div>
+
+    <!-- footer content -->
+    <footer>
+      <p>Copyright Kayne Ruse, <a href="http://krgamestudios.com">KR Game Studios</a> 2015-2018</p>
+    </footer>
+
+    <!-- javascript -->
+    <script src="node_modules/markdown-it/dist/markdown-it.js"></script>
+    <script src="node_modules/markdown-it-container/dist/markdown-it-container.js"></script>
+    <script src="node_modules/markdown-it-inline-comments/dist/markdown-it-inline-comments.js"></script>
+    <script src="utilities.js"></script>
+    <script>
+      printMarkdown("src/errata.md", document.getElementById("content"));
+    </script>
+  </body>
+</html>
