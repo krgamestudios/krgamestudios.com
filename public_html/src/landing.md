@@ -4,7 +4,7 @@
 Welcome!
 ===
 
-My current projects is: Cast World. Click the buttons above to see my other projects.
+My current projects is: Cast World. Click the buttons above to see my other projects. You can also <a href="/mailing_list.html">sign up to my mailing list!</a>
 
 Can't Anyone Save The World?
 ===

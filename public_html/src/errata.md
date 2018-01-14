@@ -1,5 +1,6 @@
 # Cast World Errata
-For Cast World v1.0.5
+
+For Cast World v1.0.5. All changes will be incorporated into the core rules during the 1.1 update in March.
 
 ## Classes
 
