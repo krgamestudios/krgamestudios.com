@@ -18,6 +18,10 @@ Prerequisites for classes have changed. They are as follows:
 * Knight: BIR 13 or above.
 * Prince: _No change._
 
+## Ability Challenges
+
+Clarification: When an ability challenge is needed, it is presented like this: (WIS +3). This indicates the stat to use (in this case, wisdom) and any bonuses or penalties to apply to the character's stat before rolling (in this case, +3).
+
 ## Magic
 
 Some spells are now marked as known or forbidden.
