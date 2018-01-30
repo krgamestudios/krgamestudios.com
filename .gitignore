@@ -1,6 +1,7 @@
 #directories
 logs/**
 /**/node_modules
+/**/thumbs
 
 #generated files
 *.html
