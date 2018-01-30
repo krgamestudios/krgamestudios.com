@@ -15,9 +15,10 @@
 
     <!-- navigation buttons -->
     <div class="ui container">
-        <div class="four ui buttons">
+        <div class="five ui buttons">
           <a href="/games.html" class="ui button centered noPadding">Games</a>
           <a href="/coding.html" class="ui button centered noPadding">Coding</a>
+          <a href="/gallery.html" class="ui button centered noPadding">Gallery</a>
           <a href="/homebrew.html" class="ui button centered noPadding">Homebrew</a>
           <a href="/about.html" class="ui button centered noPadding">About</a>
         </div>
