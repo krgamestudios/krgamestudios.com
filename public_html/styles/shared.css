@@ -37,3 +37,16 @@ footer {
 	padding-right: 0 !important;
 }
 
+/* Gallery Styling */
+.galleryName {
+	flex: 1 0 auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+}
+
+.galleryName p {
+	text-align: center;
+	font-weight: bold;
+	font-style: italic;
+}

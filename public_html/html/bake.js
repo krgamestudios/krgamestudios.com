@@ -47,11 +47,12 @@ thumb({
 
   galleryFnames.forEach(function(fname) {
     realName = srcDir + '/' + path.basename(fname);
-    galleryString += '<div class="ui card"><div class="image"><img src="' + thumbDir + '/' + fname + '" onclick="window.open(\'' + realName + '\')"></div><span>' + fname + '</span></div>';
+    galleryString += '<div class="ui card" style="display:flex;"><div class="image"><img src="' + thumbDir + '/' + fname + '" onclick="window.open(\'' + realName + '\')"></div><span class="galleryName"><p>' + fname + '</p></span></div>';
   });
 
+  creditString = '<div class="ui raised segment"><p class="ui centered">All art shown was commissioned from <a href="http://theunknown1-arts.tumblr.com/">Jason Levine</a>.</p></div>';
   galleryString = '<div class="ui stackable centered cards">' + galleryString + '</div>';
 
-  fs.writeFile('gallery.html', topFile + galleryString + bottomFile);
+  fs.writeFile('gallery.html', topFile + creditString + galleryString + bottomFile);
   console.log('gallery.html');
 });
