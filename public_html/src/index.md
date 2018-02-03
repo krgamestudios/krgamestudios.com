@@ -5,9 +5,11 @@ Welcome!
 ===
 
 <div class="ui raised segment">
+
 My current projects is: Can't Anyone Save The World?
 
 You can now <a href="/mailing_list.html">sign up to my mailing list!</a>
+
 </div>
 
 Can't Anyone Save The World?
