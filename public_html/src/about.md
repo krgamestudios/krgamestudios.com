@@ -11,5 +11,11 @@ I've also found it hard to find employment in other fields. I worked as a kitche
 
 You can contact me at <a href="mailto:kayneruse@gmail.com?Subject=Feedback">kayneruse@gmail.com</a>.
 
+Here's a list of my up-to-date resumes:
+
+* [Game Development](resume/Gamedev.pdf)
+* [Web Developent](resume/Webdev.pdf)
+* [General Labourer](resume/General.pdf)
+
 </div>
 
