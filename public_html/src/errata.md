@@ -4,7 +4,13 @@
 
 For Cast World v1.0.6. All changes will be incorporated into the core rules during the 1.1 update in March.
 
-There is no gameplay errata at the current time.
+The official name is "Can't Anyone Save The World?" - Cast World is an acronym.
+
+When fighting, DMG has a minimum value of 1.
+
+Ignore the note in the Classes section; I forgot to remove it.
+
+An elite class is simply a type of class; it has no meaning at the present time.
 
 </div>
 

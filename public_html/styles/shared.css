@@ -32,6 +32,11 @@ footer {
 	text-align: center;
 }
 
+/* Universal Styling */
+.logoMargin {
+	margin: 10px;
+}
+
 .noPadding {
 	padding-left: 0 !important;
 	padding-right: 0 !important;
