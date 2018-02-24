@@ -12,6 +12,8 @@ Ignore the note in the Classes section; I forgot to remove it.
 
 An elite class is simply a type of class; it has no meaning at the present time.
 
+At some points, I use the word "Range" where I actually mean "Reach", such as in the Mana Rat's stat block. These two words are synonyms, but I still need to fix this.
+
 </div>
 
 # Legal Issues

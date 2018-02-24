@@ -32,7 +32,7 @@ The core rules also come bundled with a short adventure called <strong>Verona Vi
 * [Cast World Errata Page](http://krgamestudios.com/errata.html)
 * [The Beggar King](http://www.drivethrurpg.com/product/230766)
 * [The Crystal Tree](http://www.drivethrurpg.com/product/232039)
-* The Mouth Of Tiamat - Coming Soon!
+* [The Mouth Of Tiamat](http://www.drivethrurpg.com/product/234987)
 
 </div>
 
