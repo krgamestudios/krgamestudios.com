@@ -8,6 +8,9 @@ The official name is "Can't Anyone Save The World?" - Cast World is an acronym.
 
 When fighting, DMG has a minimum value of 1.
 
+Bronze Capped Boots Stats: AP: +0, HP: +1, WS: -2  
+Steel Capped Boots Stats: AP: +0, HP: +2, WS: -4  
+
 Ignore the note in the Classes section; I forgot to remove it.
 
 An elite class is simply a type of class; it has no meaning at the present time.
