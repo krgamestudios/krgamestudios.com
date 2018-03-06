@@ -1,5 +1,6 @@
 <a href="https://facebook.com/KRGameStudios"><img src="https://en.facebookbrand.com/wp-content/uploads/2016/05/FB-fLogo-Blue-broadcast-2.png" alt="Facebook" width="32" height="32"></a>
 <a href="https://twitter.com/KRGameStudios"><img src="img/twitter.png" alt="Twitter" width="32" height="32"></a>
+<a href="https://github.com/KRGameStudios"><img src="img/github.png" alt="Github" width="32" height="32"></a>
 
 Welcome!
 ===
