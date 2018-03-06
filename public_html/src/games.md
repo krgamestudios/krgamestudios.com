@@ -58,7 +58,7 @@ This game is inspired by classic 2D RPGs (Final Fantasy, The Legend of Zelda), a
 
 * [Tortuga for Windows (Tortuga-win.rar)](dl/Tortuga-win.rar)
 * [Tortuga for Linux (Tortuga-linux.tar)](dl/Tortuga-linux.tar)
-* [Tortuga Source Code](https://github.com/Ratstail91/Tortuga)
+* [Tortuga Source Code](https://github.com/KRGameStudios/Tortuga)
 
 </div>
 

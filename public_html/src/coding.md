@@ -5,8 +5,8 @@ GitHub
 
 No, I'm not claiming to have made GitHub, rather, I use GitHub's features as a backup system. You can see everything I've made on my accounts:
 
-* [Ratstail91](https://github.com/Ratstail91)
 * [KR Game Studios](https://github.com/krgamestudios)
+* [Ratstail91](https://github.com/Ratstail91)
 
 </div>
 
@@ -27,7 +27,7 @@ Internet Jukebox
 
 <div class="ui raised segment">
 
-This is a cooperative Jukebox page, where users can upload .mp3 files and listen to them together. If you don't like a song, you can delete it instead. This is currently in beta.
+This is a cooperative Jukebox page, where users can upload .mp3 files and listen to them together. If you don't like a song, you can delete it instead. This is currently in alpha.
 
 * [Internet Jukebox](http://forest.krgamestudios.com/)
 * [Source Code](https://github.com/Ratstail91/forest)
@@ -61,7 +61,7 @@ This Website!
 
 <div class="ui raised segment">
 
-This website is based off of the same tech as the Mecha: Immense Warfare website, which in turn was designed as a simple reference to be looked up on mobile. Make of that what you will.
+This website was originally based off of the same tech as the Mecha: Immense Warfare website, which in turn was designed as a simple reference to be looked up on mobile. Make of that what you will.
 
 * [Website Source Code](https://github.com/krgamestudios/krgamestudios.com)
 
