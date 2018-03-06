@@ -14,8 +14,8 @@ To make a new character, roll for stats, then choose a race, class and elemental
 The core rules also come bundled with a short adventure called <strong>Verona Village</strong>, which demonstrates the core rules, adds some new content, and fleshes out a small part of the world. New adventures will be released on DriveThruRPG every two weeks, so check back often!
 
 * [Cast World Store Page](http://www.drivethrurpg.com/product/230186)
-* [Cast World Rules Preview](http://krgamestudios.com/dl/Rules_Preview.pdf)
-* [Cast World Errata Page](http://krgamestudios.com/errata.html)
+* [Cast World Rules Preview](http://krgamestudios.com/dl/Castworld_Rules_Preview.pdf)
+* [Cast World Errata Page](http://krgamestudios.com/castworld_errata.html)
 * [The Beggar King](http://www.drivethrurpg.com/product/230766)
 * [The Crystal Tree](http://www.drivethrurpg.com/product/232039)
 * [The Mouth Of Tiamat](http://www.drivethrurpg.com/product/234987)
