@@ -3,15 +3,17 @@ Can't Anyone Save The World?
 
 <div class="ui raised segment">
 
-AKA <strong>Cast World</strong> for short.
+_Del was bleeding; a strange mix of blood and amber from his woodfolk body. His friends and comrades were scattered around the battlefield, each exausted from the frantic battle, but still willing to stand and fight. Denera, the god king towered over him, but that didin't phase Del anymore - today, for the first time in centuries, the god before him seemed winded._
 
-<strong>Can't Anyone Save The World?</strong> is inspired by both classic and modern tabletop RPGs. This sword-and-sorcery RPG is designed to be quick to start with easy to intuit rules, making it ideal for shorter campaigns. It comes with a new setting baked in, filled with unique races (human, woodfolk, oxkin and hollow) and scenarios. This is very much a labour of love, so please leave your feedback below!
+_"You call yourself an immortal king, but what have you done for the people, you tyrant!?" Del spat, goading the prideful god before him. Angered further, Denera swung wide with his bloodforged axe._
+
+"Can't Anyone Save The World?" is inspired by the gameplay of both classic and modern tabletop RPGs. This sword-and-sorcery RPG is designed to be quick to start with easy to learn and intuit rules, making it ideal for shorter campaigns. It comes with a new setting baked in (gods walk among mortals!), filled with unique races (human, woodfolk, oxkin and hollow) and scenarios. This is very much a labour of love, so please leave your feedback below!
 
 To play, you'll need 3 six-sided dice (referred to as d6), paper, a pencil, and imagination. This game is designed for 3 to 7 players, and a game master (or GM for short).
 
 To make a new character, roll for stats, then choose a race, class and elemental affinity. Now, you're ready to play! Roll high during combat, and roll low during ability challenges; don't forget the roleplaying, of course - that's the other half of the game!
 
-The core rules also come bundled with a short adventure called <strong>Verona Village</strong>, which demonstrates the core rules, adds some new content, and fleshes out a small part of the world. New adventures will be released on DriveThruRPG every two weeks, so check back often!
+The core rules also come bundled with a short adventure called "Verona Village", which demonstrates the core rules, adds some new content, and fleshes out a small part of the world. New adventures will be released on DriveThruRPG every two weeks, so check back often!
 
 * [Cast World Store Page](http://www.drivethrurpg.com/product/230186)
 * [Cast World Rules Preview](http://krgamestudios.com/dl/Castworld_Rules_Preview.pdf)
