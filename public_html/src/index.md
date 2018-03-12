@@ -28,14 +28,10 @@ To play, you'll need 3 six-sided dice (referred to as d6), paper, a pencil, and 
 
 To make a new character, roll for stats, then choose a race, class and elemental affinity. Now, you're ready to play! Roll high during combat, and roll low during ability challenges; don't forget the roleplaying, of course - that's the other half of the game!
 
-The core rules also come bundled with a short adventure called "Verona Village", which demonstrates the core rules, adds some new content, and fleshes out a small part of the world. New adventures will be released on DriveThruRPG every two weeks, so check back often!
+The core rules also come bundled with several short adventures, which demonstrate the core rules, add some new content, and flesh out small parts of the world.
 
-* [Cast World Store Page](http://www.drivethrurpg.com/product/230186)
-* [Cast World Rules Preview](http://krgamestudios.com/dl/Castworld_Rules_Preview.pdf)
-* [Cast World Errata Page](http://krgamestudios.com/castworld_errata.html)
-* [The Beggar King](http://www.drivethrurpg.com/product/230766)
-* [The Crystal Tree](http://www.drivethrurpg.com/product/232039)
-* [The Mouth Of Tiamat](http://www.drivethrurpg.com/product/234987)
+* [Can't Anyone Save The World? Store Page](http://www.drivethrurpg.com/product/230186)
+* [The Mouth Of Tiamat Store Page](http://www.drivethrurpg.com/product/234987)
 
 </div>
 
