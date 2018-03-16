@@ -3,11 +3,11 @@ Can't Anyone Save The World?
 
 <div class="ui raised segment">
 
-_Del was bleeding; a strange mix of blood and amber from his woodfolk body. His friends and comrades were scattered around the battlefield, each exausted from the frantic battle, but still willing to stand and fight. Denera, the god king towered over him, but that didin't phase Del anymore - today, for the first time in centuries, the god before him seemed winded._
+_Del was bleeding; a strange mix of blood and amber from his woodfolk body. His friends and comrades were scattered around the battlefield, each exhausted from the frantic battle, but still willing to stand and fight. Denera, the god king towered over him, but that didn't phase Del anymore - today, for the first time in centuries, the god before him seemed winded._
 
 _"You call yourself an immortal king, but what have you done for the people, you tyrant!?" Del spat, goading the prideful god before him. Angered further, Denera swung wide with his bloodforged axe._
 
-"Can't Anyone Save The World?" is inspired by the gameplay of both classic and modern tabletop RPGs. This sword-and-sorcery RPG is designed to be quick to start with easy to learn and intuit rules, making it ideal for shorter campaigns. It comes with a new setting baked in (gods walk among mortals!), filled with unique races (human, woodfolk, oxkin and hollow) and scenarios. This is very much a labour of love, so please leave your feedback below!
+__"Can't Anyone Save The World?"__ is inspired by the gameplay of both classic and modern tabletop role playing games. This sword-and-sorcery RPG is designed to be quick to start with easy to learn and intuit rules, making it ideal for shorter campaigns. It comes with a new setting baked in (gods walk among mortals!), filled with unique races (human, woodfolk, oxkin and hollow) and scenarios.
 
 To play, you'll need 3 six-sided dice (referred to as d6), paper, a pencil, and imagination. This game is designed for 3 to 7 players, and a game master (or GM for short).
 
