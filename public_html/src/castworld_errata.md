@@ -1,10 +1,10 @@
 # Cast World Errata
 
-## Version 1.1.1
+## Version 1.1.2
 
 <div class="ui raised segment">
 
-Nothing at this time.
+No errata at this time.
 
 </div>
 
