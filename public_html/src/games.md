@@ -3,6 +3,8 @@ Candy!
 
 <div class="ui raised segment">
 
+Candy has a sweet tooth; all she wants is sweet, sweet candy! Help her overcome these puzzles using her elemental powers, and lead her to the deliciousness at the end!
+
 My and LogicMonkey's submission for Ludum Dare 41.
 
 * [Web Version](candy)
