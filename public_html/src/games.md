@@ -1,3 +1,15 @@
+Candy!
+===
+
+<div class="ui raised segment">
+
+My and LogicMonkey's submission for Ludum Dare 41.
+
+* [Web Version](candy)
+* [Source Code](https://github.com/krgamestudios/ludumdare41)
+
+</div>
+
 Monster Stalker
 ===
 
