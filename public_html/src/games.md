@@ -3,12 +3,14 @@ Candy!
 
 <div class="ui raised segment">
 
-Candy has a sweet tooth; all she wants is sweet, sweet candy! Help her overcome these puzzles using her elemental powers, and lead her to the deliciousness at the end!
+Milly Monka's Candy Factory is the biggest producer of candy in the whole world. So naturally, she set up traps and defenses to protect her factory from thieves. One such thief is Candy the witch - a powerful witch with a powerful sweet tooth. 
 
-My and LogicMonkey's submission for Ludum Dare 41.
+Candy must make her way through each section of the factory - the gumdrop gardens, the lava kitchens, the frozen warehouses and the evil offices - to steal as much candy as possible!
 
-* [Web Version](candy)
-* [Source Code](https://github.com/krgamestudios/ludumdare41)
+This was originally an entry for Ludum Dare 41, but we've decided to expand it into a full game. We're aiming for an October release, but you can play the prototype here:
+
+* [Candy!](candy)
+* [Prototype Source Code](https://github.com/krgamestudios/ludumdare41)
 
 </div>
 
