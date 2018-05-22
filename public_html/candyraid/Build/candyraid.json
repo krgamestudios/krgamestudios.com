@@ -1,0 +1,13 @@
+{
+"companyName": "KR Game Studios",
+"productName": "Candy Raid: The Factory",
+"dataUrl": "candyraid.data.unityweb",
+"asmCodeUrl": "candyraid.asm.code.unityweb",
+"asmMemoryUrl": "candyraid.asm.memory.unityweb",
+"asmFrameworkUrl": "candyraid.asm.framework.unityweb",
+"TOTAL_MEMORY": 268435456,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20"
+}

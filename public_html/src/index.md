@@ -8,27 +8,25 @@ Welcome!
 
 <div class="ui raised segment">
 
-My current projects is: Candy!
+My current projects is: Candy Raid: The Factory!
 
 You can now <a href="/mailing_list.html">sign up to my mailing list!</a>
 
 </div>
 
-Candy!
-===
+<img style="object-fit:contain;width:100%;" src="img/crtflogo.png" />
 
 <div class="ui raised segment">
 
-<img style="display:block;margin:auto;" src="img/candy_cover_final.png" />
+<img style="object-fit:contain;width:100%;" src="img/promo.png" />
 
 Milly Monka's Candy Factory is the biggest producer of candy in the whole world. So naturally, she set up traps and defenses to protect her factory from thieves. One such thief is Candy the witch - a powerful witch with a powerful sweet tooth. 
 
 Candy must make her way through each section of the factory - the gumdrop gardens, the lava kitchens, the frozen warehouses and the evil offices - to steal as much candy as possible!
 
-This was originally an entry for Ludum Dare 41, but we've decided to expand it into a full game. We're aiming for an October release, but you can play the prototype here:
+We're aiming for an October release, but you can play the demo now!
 
-* [Candy!](candy)
-* [Prototype Source Code](https://github.com/krgamestudios/ludumdare41)
+* [Candy Raid: The Factory!](candyraid)
 
 </div>
 

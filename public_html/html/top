@@ -13,7 +13,7 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/semantic-ui/2.2.8/semantic.min.css">
-    <link rel="stylesheet" type="text/css" href="styles/shared.css?v=1" />
+    <link rel="stylesheet" type="text/css" href="https://krgamestudios.com/styles/shared.css?v=1" />
   </head>
 
   <body>
@@ -21,7 +21,7 @@
     <header class="ui container">
       <!-- header image -->
       <a href="https://krgamestudios.com">
-        <img src="img/logo_400x400.png" alt="KR Game Studios" class="ui left tiny image logoMargin" />
+        <img src="https://krgamestudios.com/img/logo_400x400.png" alt="KR Game Studios" class="ui left tiny image logoMargin" />
       </a>
     </header>
 
