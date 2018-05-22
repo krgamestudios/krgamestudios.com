@@ -27,6 +27,7 @@ Candy must make her way through each section of the factory - the gumdrop garden
 We're aiming for an October release, but you can play the demo now!
 
 * [Candy Raid: The Factory!](candyraid)
+* [Press Kit](candyraid/presskit)
 
 </div>
 
