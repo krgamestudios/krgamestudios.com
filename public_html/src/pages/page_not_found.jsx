@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 class PageNotFound extends React.Component {
   constructor(props) {
@@ -8,7 +9,11 @@ class PageNotFound extends React.Component {
 
   render() {
     return (
-      <p>Page Not Found</p>
+      <div className='page'>
+        <h1>Page Not Found</h1>
+        <Link to='/'>Return Home</Link>
+        <img src='img/404.png' />
+      </div>
     );
   }
 }
