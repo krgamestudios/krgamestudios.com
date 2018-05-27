@@ -7,8 +7,20 @@ class PanelHeader extends React.Component {
   }
 
   render() {
+    let customStyle = {
+      display: 'flex',
+      flexDirrction: 'row',
+      justifyContent: 'center',
+      alignItems: 'center'
+    };
+
     return (
-      <p>Panel Header</p>
+      <header>
+        <a href='/' style={customStyle}>
+          <img src='img/logo_400x400.png' style={{height:'32px'}} />
+          <h1>KR Game Studios</h1>
+        </a>
+      </header>
     );
   }
 }
