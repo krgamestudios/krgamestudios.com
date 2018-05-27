@@ -15,12 +15,19 @@ class PanelHeader extends React.Component {
     };
 
     return (
-      <header>
-        <a href='/' style={customStyle}>
-          <img src='img/logo_400x400.png' style={{height:'32px'}} />
-          <h1>KR Game Studios</h1>
-        </a>
-      </header>
+      <div style={{margin: '0 -10px'}}>
+        <header>
+          <a href='/' style={customStyle}>
+            <img src='img/logo_400x400.png' style={{height:'32px'}} />
+            <h1>KR Game Studios</h1>
+          </a>
+        </header>
+        <div className='headerButtons'>
+          <a className='headerButton' href='games'>Games</a>
+          <a className='headerButton' href='coding'>Coding</a>
+          <a className='headerButton' href='about'>About</a>
+        </div>
+      </div>
     );
   }
 }

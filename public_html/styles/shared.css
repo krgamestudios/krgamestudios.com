@@ -49,12 +49,33 @@ a {
 header {
   flex: 0 1 auto;
   justify-self: flex-start;
-  margin: 0 -10px;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   background: #01796f;
+}
+
+.headerButtons {
+  flex: 0 1 auto;
+  justify-self: flex-end;
+  display: flex;
+  flex-direction: row;
+}
+
+.headerButton {
+  flex: 1;
+  background: #017965; /* same as header */
+  color: #d0f0c0; /* same as central */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.headerButton:hover {
+  color: #017965; /* same as header */
+  background: #d0f0c0; /* same as central */
 }
 
 /* footer */
