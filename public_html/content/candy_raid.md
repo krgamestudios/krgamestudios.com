@@ -1,7 +1,6 @@
-Candy Raid
-===
+![](/img/crtflogo.png)
 
-TODO: promo images
+![](/img/crtfpromo.png)
 
 Milly Monka's Candy Factory is the biggest producer of candy in the whole world. So naturally, she set up traps and defenses to protect her factory from thieves. One such thief is Candy the witch - a powerful witch with a powerful sweet tooth.
 

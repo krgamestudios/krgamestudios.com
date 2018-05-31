@@ -20,5 +20,8 @@
     "react-router-dom": "^4.2.2",
     "webpack": "^4.9.1",
     "webpack-cli": "^2.1.4"
+  },
+  "dependencies": {
+    "react-unity-webgl": "^6.5.0"
   }
 }
