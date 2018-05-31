@@ -41,7 +41,7 @@ class PanelMarkdown extends React.Component {
     }
 
     return (
-      <ReactMarkdown source={this.state.text} />
+      <ReactMarkdown source={this.state.text} escapeHTML={false} />
     );
   }
 }

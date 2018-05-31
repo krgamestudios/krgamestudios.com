@@ -41,6 +41,15 @@ a {
   color: #01796f; /* header */
 }
 
+p {
+  padding-bottom: 0.5rem;
+}
+
+ul {
+  padding-left: 20px;
+  list-style-type: disc;
+}
+
 .left {
   text-align: left;
 }

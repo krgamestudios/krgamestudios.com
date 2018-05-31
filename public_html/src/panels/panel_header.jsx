@@ -18,14 +18,14 @@ class PanelHeader extends React.Component {
       <div style={{margin: '0 -10px'}}>
         <header>
           <a href='/' className='responsive'>
-            <img className='title' src='img/logo_400x400.png' />
+            <img className='title' src='https://krgamestudios.com/img/logo_400x400.png' />
             <h1 className='title' >KR Game Studios</h1>
           </a>
         </header>
         <div className='headerButtons'>
-          <a className='headerButton' href='games'>Games</a>
-          <a className='headerButton' href='coding'>Coding</a>
-          <a className='headerButton' href='about'>About</a>
+          <a className='headerButton' href='/games'>Games</a>
+          <a className='headerButton' href='/coding'>Coding</a>
+          <a className='headerButton' href='/about'>About</a>
         </div>
       </div>
     );
