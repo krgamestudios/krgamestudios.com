@@ -11,7 +11,7 @@ class PageAbout extends React.Component {
   render() {
     return (
       <div className='page'>
-        <PanelMarkdown filename='content/about.md' />
+        <PanelMarkdown filename='/content/about.md' />
       </div>
     );
   }

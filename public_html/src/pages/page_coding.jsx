@@ -1,5 +1,7 @@
 import React from 'react';
 
+import PanelMarkdown from '../panels/panel_markdown.jsx';
+
 class PageCoding extends React.Component {
   constructor(props) {
     super(props);
@@ -9,7 +11,12 @@ class PageCoding extends React.Component {
   render() {
     return (
       <div className='page'>
-        <p>Coding</p>
+        <PanelMarkdown filename='/content/github.md' />
+        <PanelMarkdown filename='/content/the_portal.md' />
+        <PanelMarkdown filename='/content/internet_jukebox.md' />
+        <PanelMarkdown filename='/content/turtle_map.md' />
+        <PanelMarkdown filename='/content/turtle_gui.md' />
+        <PanelMarkdown filename='/content/this_website.md' />
       </div>
     );
   }

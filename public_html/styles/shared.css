@@ -25,6 +25,8 @@ body {
 
 h1 {
   font: 24pt;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 h2 {
@@ -74,6 +76,7 @@ header {
 }
 
 .title {
+  padding: 0;
   width: auto;
   height: 32px;
   color: #d0f0c0; /*  central */
