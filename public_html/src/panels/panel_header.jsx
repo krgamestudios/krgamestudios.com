@@ -7,7 +7,7 @@ class PanelHeader extends React.Component {
   }
 
   render() {
-    let customStyle = {
+    let linkStyle = {
       display: 'flex',
       flexDirrction: 'row',
       justifyContent: 'center',
@@ -17,9 +17,9 @@ class PanelHeader extends React.Component {
     return (
       <div style={{margin: '0 -10px'}}>
         <header>
-          <a href='/' style={customStyle}>
-            <img src='img/logo_400x400.png' style={{height:'32px'}} />
-            <h1>KR Game Studios</h1>
+          <a href='/' className='responsive'>
+            <img className='title' src='img/logo_400x400.png' />
+            <h1 className='title' >KR Game Studios</h1>
           </a>
         </header>
         <div className='headerButtons'>

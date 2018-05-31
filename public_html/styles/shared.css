@@ -1,3 +1,10 @@
+/* colors:
+ *
+ * border - #0b6623
+ * header - #01796f
+ * central- #d0f0c0
+*/
+
 /* global defaults */
 * {
   margin: 0;
@@ -9,7 +16,7 @@ body {
   font: 13pt Helvetica, Arial;
   width: 100vw;
   height: 100vh;
-  background: #0b6623;
+  background: #0b6623; /* border */
   display: flex;
   flex-direction: column;
   overflow-x: hidden;
@@ -25,12 +32,13 @@ h2 {
 }
 
 img {
-  display: block;
-  max-width: 100%;
+  align-self: center;
+  height: auto;
+  width: 100%;
 }
 
 a {
-  color: #043927;
+  color: #01796f; /* header */
 }
 
 .left {
@@ -53,7 +61,13 @@ header {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  background: #01796f;
+  background: #01796f; /* header */
+}
+
+.title {
+  width: auto;
+  height: 32px;
+  color: #d0f0c0; /*  central */
 }
 
 .headerButtons {
@@ -65,8 +79,8 @@ header {
 
 .headerButton {
   flex: 1;
-  background: #017965; /* same as header */
-  color: #d0f0c0; /* same as central */
+  background: #01796f; /* header */
+  color: #d0f0c0; /*  central */
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -74,8 +88,8 @@ header {
 }
 
 .headerButton:hover {
-  color: #017965; /* same as header */
-  background: #d0f0c0; /* same as central */
+  color: #01796f; /* header */
+  background: #d0f0c0; /* central */
 }
 
 /* footer */
@@ -95,7 +109,7 @@ footer {
   flex-direction: column;
   padding: 0 10px;
   min-height: 100vh;
-  background: #d0f0c0;
+  background: #d0f0c0; /* central */
 }
 
 @media screen and (min-width: 480px) {
@@ -122,6 +136,7 @@ footer {
 @media screen and (min-width: 480px) {
   .responsive {
     flex-direction: row;
+    justify-content: center;
   }
 }
 

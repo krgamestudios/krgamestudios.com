@@ -11,8 +11,8 @@ class PageNotFound extends React.Component {
     return (
       <div className='page'>
         <h1>Page Not Found</h1>
+        <img src='img/404.png' style={{maxWidth: '710px'}} />
         <Link to='/'>Return Home</Link>
-        <img src='img/404.png' />
       </div>
     );
   }
