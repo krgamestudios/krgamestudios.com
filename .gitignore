@@ -6,6 +6,7 @@ logs/**
 
 #passwords
 /**/*.pwd
+auth.json
 
 #log files
 /**/*.log

@@ -1,6 +1,8 @@
 import React from 'react';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
+import GA from './utils/google_analytics.jsx';
+
 import PanelHeader from './panels/panel_header.jsx';
 import PanelFooter from './panels/panel_footer.jsx';
 
@@ -24,16 +26,19 @@ class App extends React.Component {
       <div className='central'>
         <PanelHeader />
         <BrowserRouter>
-          <Switch>
-            <Route path='/' exact component={PageHome} />
-            <Route path='/games' component={PageGames} />
-            <Route path='/coding' component={PageCoding} />
-            <Route path='/about' component={PageAbout} />
-            <Route path='/monsterstalker' component={PageMonsterStalker} />
-            <Route path='/candyraid' exact component={PageCandyRaid} />
-            <Route path='/candyraid/presskit' exact component={PageCandyRaidPresskit} />
-            <Route component={PageNotFound} />
-          </Switch>
+          <div>
+            { GA.init() && <GA.RouteTracker /> }
+            <Switch>
+              <Route path='/' exact component={PageHome} />
+              <Route path='/games' component={PageGames} />
+              <Route path='/coding' component={PageCoding} />
+              <Route path='/about' component={PageAbout} />
+              <Route path='/monsterstalker' component={PageMonsterStalker} />
+              <Route path='/candyraid' exact component={PageCandyRaid} />
+              <Route path='/candyraid/presskit' exact component={PageCandyRaidPresskit} />
+              <Route component={PageNotFound} />
+            </Switch>
+          </div>
         </BrowserRouter>
         <PanelFooter />
       </div>

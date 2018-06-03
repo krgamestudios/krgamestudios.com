@@ -14,14 +14,14 @@
     "babel-loader": "^7.1.4",
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-3": "^6.24.1",
     "react": "^16.4.0",
     "react-dom": "^16.4.0",
+    "react-ga": "^2.5.3",
     "react-markdown": "^3.3.2",
     "react-router-dom": "^4.2.2",
+    "react-unity-webgl": "^6.5.0",
     "webpack": "^4.9.1",
     "webpack-cli": "^2.1.4"
-  },
-  "dependencies": {
-    "react-unity-webgl": "^6.5.0"
   }
 }
