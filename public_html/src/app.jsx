@@ -13,6 +13,8 @@ import PageAbout from './pages/page_about.jsx';
 import PageMonsterStalker from './pages/page_monster_stalker.jsx';
 import PageCandyRaid from './pages/page_candy_raid.jsx';
 import PageCandyRaidPresskit from './pages/page_candy_raid_presskit.jsx';
+import PageMailingList from './pages/page_mailing_list.jsx';
+import PageCastworldErrata from './pages/page_castworld_errata.jsx';
 import PageNotFound from './pages/page_not_found.jsx';
 
 class App extends React.Component {
@@ -29,13 +31,15 @@ class App extends React.Component {
           <div className="page">
             { GA.init() && <GA.RouteTracker /> }
             <Switch>
-              <Route path='/' exact component={PageHome} />
-              <Route path='/games' component={PageGames} />
-              <Route path='/coding' component={PageCoding} />
-              <Route path='/about' component={PageAbout} />
-              <Route path='/monsterstalker' component={PageMonsterStalker} />
-              <Route path='/candyraid' exact component={PageCandyRaid} />
-              <Route path='/candyraid/presskit' exact component={PageCandyRaidPresskit} />
+              <Route exact path='/' component={PageHome} />
+              <Route exact path='/games' component={PageGames} />
+              <Route exact path='/coding' component={PageCoding} />
+              <Route exact path='/about' component={PageAbout} />
+              <Route exact path='/monsterstalker' component={PageMonsterStalker} />
+              <Route exact path='/candyraid' component={PageCandyRaid} />
+              <Route exact path='/candyraid/presskit' component={PageCandyRaidPresskit} />
+              <Route exact path='/mailing_list' component={PageMailingList} />
+              <Route exact path='/castworld_errata' component={PageCastworldErrata} />
               <Route component={PageNotFound} />
             </Switch>
           </div>

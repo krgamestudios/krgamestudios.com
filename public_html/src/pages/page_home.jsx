@@ -31,7 +31,7 @@ class PageHome extends React.Component {
         </div>
         <h1>Welcome!</h1>
         <p>My current projects is: Candy Raid: The Factory!</p>
-        <p>You can now sign up to my <a href="https://krgamestudios.com/mailing_list.html">mailing list!</a></p>
+        <p>You can now sign up to my <a href="/mailing_list">mailing list!</a></p>
         <hr />
         <PanelCandyRaid />
       </div>
