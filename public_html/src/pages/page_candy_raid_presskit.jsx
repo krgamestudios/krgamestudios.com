@@ -23,8 +23,8 @@ class PageAbout extends React.Component {
         <p><strong>Release date:</strong> October 1st 2018</p>
         <p>
           <strong>Gameplay, Programming:</strong> Kayne Ruse<br />
-          <strong>Art, Sound Effects:</strong> Evan Hartshorn<br />
-          <strong>Soundtrack:</strong> Luis Paez
+          <strong>Art:</strong> Evan Hartshorn<br />
+          <strong>Soundtrack, Sound Effects:</strong> Luis Paez
         </p>
 
         <p>The prototype for Candy Raid was created in 3 days for Ludum Dare 41. Our team of two knew from the start that we had something special on our hands, so we rebuilt the game from the ground up, while retaining it's core elements.</p>

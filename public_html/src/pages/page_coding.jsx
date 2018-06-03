@@ -12,11 +12,16 @@ class PageCoding extends React.Component {
     return (
       <div className='page'>
         <PanelMarkdown filename='/content/github.md' />
-        <PanelMarkdown filename='/content/the_portal.md' />
-        <PanelMarkdown filename='/content/internet_jukebox.md' />
-        <PanelMarkdown filename='/content/turtle_map.md' />
-        <PanelMarkdown filename='/content/turtle_gui.md' />
+        <hr />
         <PanelMarkdown filename='/content/this_website.md' />
+        <hr />
+        <PanelMarkdown filename='/content/turtle_map.md' />
+        <hr />
+        <PanelMarkdown filename='/content/turtle_gui.md' />
+        <hr />
+        <PanelMarkdown filename='/content/the_portal.md' />
+        <hr />
+        <PanelMarkdown filename='/content/internet_jukebox.md' />
       </div>
     );
   }

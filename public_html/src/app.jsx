@@ -26,7 +26,7 @@ class App extends React.Component {
       <div className='central'>
         <PanelHeader />
         <BrowserRouter>
-          <div>
+          <div className="page">
             { GA.init() && <GA.RouteTracker /> }
             <Switch>
               <Route path='/' exact component={PageHome} />

@@ -52,6 +52,11 @@ ul {
   list-style-type: disc;
 }
 
+hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
 .left {
   text-align: left;
 }
@@ -145,10 +150,18 @@ footer {
   justify-content: flex-start;
 }
 
+img.responsive {
+  width: 100%;
+}
+
 @media screen and (min-width: 480px) {
   .responsive {
     flex-direction: row;
     justify-content: center;
+  }
+
+  img.responsive {
+    width: 50%;
   }
 }
 
