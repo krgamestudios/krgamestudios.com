@@ -19,7 +19,6 @@ class PanelHeader extends React.Component {
         <header>
           <a href='/' className='responsive'>
             <img className='title' src='https://krgamestudios.com/img/logo_400x400.png' />
-            <h1 className='title' >KR Game Studios</h1>
           </a>
         </header>
         <div className='headerButtons'>
