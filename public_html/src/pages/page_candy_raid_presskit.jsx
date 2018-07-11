@@ -38,6 +38,11 @@ class PageAbout extends React.Component {
 
         <hr />
 
+        <h2>Trailer</h2>
+        <center><iframe width="560" height="315" src="https://www.youtube.com/embed/7DcsXKjTGeE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></center>
+
+        <hr />
+
         <h2>Screenshots</h2>
         <div className="responsive">
           <a href="/img/crtfscreenshot_01.png" target="_blank" ><img src="/img/crtfscreenshot_01.png" style={imageStyle} /></a>
