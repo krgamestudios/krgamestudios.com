@@ -33,8 +33,8 @@ class PageAbout extends React.Component {
         <hr />
 
         <h2>Blurb</h2>
-        <p>Milly Monka's Candy Factory is the biggest producer of candy in the whole world. So naturally, she set up traps and defenses to protect her factory from thieves. One such thief is Candy the witch - a powerful witch with a powerful sweet tooth.</p>
-        <p>Candy must make her way through each section of the factory - the gumdrop gardens, the lava kitchens, the frozen warehouses and the evil offices - to steal as much candy as possible!</p>
+            <p>Milly Monka's Candy Factory is the biggest producer of candy in the whole world. So naturally, she set up traps and defenses to protect her factory from thieves. One such thief is Candy the witch - a powerful witch with a powerful sweet tooth.</p>
+            <p>Candy must make her way through each section of the factory - the gumdrop gardens, the lava kitchens and the frozen vaults - to steal as much candy as possible!</p>
 
         <hr />
 
