@@ -29,11 +29,12 @@ class PageAbout extends React.Component {
 
         <p>The prototype for Candy Raid was created in 3 days for Ludum Dare 41. Our team of two knew from the start that we had something special on our hands, so we rebuilt the game from the ground up, while retaining it's core elements.</p>
         <p>After contracting Luis, we released the first demo, which can be played here:<br /><a href="/candyraid">https://krgamestudios.com/candyraid</a></p>
+        <p>The store page can be found here: <a href="https://store.steampowered.com/app/868880/Candy_Raid_The_Factory/">Candy Raid: The Factory</a></p>
 
         <hr />
 
         <h2>Blurb</h2>
-            <p>Milly Monka's Candy Factory is the biggest producer of candy in the whole world. So naturally, she set up traps and defenses to protect her factory from thieves. One such thief is Candy the witch - a powerful witch with a powerful sweet tooth.</p>
+            <p>Milly Monk's Candy Factory is the biggest producer of candy in the whole world. So naturally, she set up traps and defenses to protect her factory from thieves. One such thief is Candy the witch - a powerful witch with a powerful sweet tooth.</p>
             <p>Candy must make her way through each section of the factory - the gumdrop gardens, the lava kitchens and the frozen vaults - to steal as much candy as possible!</p>
 
         <hr />
