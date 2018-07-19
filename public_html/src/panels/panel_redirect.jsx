@@ -1,5 +1,4 @@
 import React from 'react';
-import { Redirect } from 'react-router';
 
 class PanelRedirect extends React.Component {
   constructor(props) {
@@ -9,10 +8,13 @@ class PanelRedirect extends React.Component {
     };
   }
 
+  componentWillMount() {
+    window.location = this.state.target;
+  }
+
   render() {
     return (
       <div>
-        <Redirect to={state.target} />
         <p>Please wait while you're redirected...</p>
       </div>
     );
