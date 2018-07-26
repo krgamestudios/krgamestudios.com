@@ -12,6 +12,7 @@ import PageGames from './pages/page_games.jsx';
 import PageCoding from './pages/page_coding.jsx';
 import PageAbout from './pages/page_about.jsx';
 import PageMonsterStalker from './pages/page_monster_stalker.jsx';
+import PageGenericPlatformFighter from './pages/page_generic_platform_fighter.jsx';
 import PageMailingList from './pages/page_mailing_list.jsx';
 import PageCastworldErrata from './pages/page_castworld_errata.jsx';
 import PageNotFound from './pages/page_not_found.jsx';
@@ -35,6 +36,7 @@ class App extends React.Component {
               <Route exact path='/coding' component={PageCoding} />
               <Route exact path='/about' component={PageAbout} />
               <Route exact path='/monsterstalker' component={PageMonsterStalker} />
+              <Route exact path='/genericplatformfighter' component={PageGenericPlatformFighter} />
               <Route exact path='/candyraid' render={()=><PanelRedirect target="https://candyraid.com/demo" />} />
               <Route exact path='/candyraid/presskit' render={()=><PanelRedirect target="https://candyraid.com/presskit" />} />
               <Route exact path='/mailing_list' component={PageMailingList} />
