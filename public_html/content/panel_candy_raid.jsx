@@ -3,8 +3,8 @@ import React from 'react';
 class PanelCandyRaid extends React.Component {
   render() {
     return (
-      <div>
-        <img src="/img/crtflogo.png" />
+      <div className="page">
+        <img src="/img/crtflogo.png" style={{width:"80%"}} />
         <div className="responsive">
           <img src="/img/crtfpromo.png" className="responsive" />
           <div style={{paddingLeft: '5px'}}>
