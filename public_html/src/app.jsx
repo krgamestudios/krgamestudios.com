@@ -35,14 +35,20 @@ class App extends React.Component {
               <Route exact path='/games' component={PageGames} />
               <Route exact path='/coding' component={PageCoding} />
               <Route exact path='/about' component={PageAbout} />
+
               <Route exact path='/monsterstalker' component={PageMonsterStalker} />
               <Route exact path='/genericplatformfighter' component={PageGenericPlatformFighter} />
+
               <Route exact path='/candy' render={()=><PanelRedirect target="https://candyraid.com/prototype" />} />
               <Route exact path='/candyraid' render={()=><PanelRedirect target="https://candyraid.com/demo" />} />
               <Route exact path='/candyraid/presskit' render={()=><PanelRedirect target="https://candyraid.com/presskit" />} />
+
               <Route exact path='/astrangesinkingfeeling' render={()=><PanelRedirect target="https://docs.google.com/document/d/1Mmcb4S62s7JyFaoNve9dH2MJwowu0JmK-A5mEMGPaY4/edit?usp=sharing" />} />
-              <Route exact path='/mailing_list' component={PageMailingList} />
+
+              <Route exact path='/castworld2' render={()=><PanelRedirect target="https://www.dropbox.com/s/m6ucxmvb3uxsw28/castworld_2_prototype.pdf?dl=0" />} />
               <Route exact path='/castworld_errata' component={PageCastworldErrata} />
+
+              <Route exact path='/mailing_list' component={PageMailingList} />
               <Route component={PageNotFound} />
             </Switch>
           </div>
