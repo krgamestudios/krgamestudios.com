@@ -13,6 +13,8 @@ class PageGames extends React.Component {
   render() {
     return (
       <div className='page'>
+        <PanelMarkdown filename='/content/cant_anyone_save_the_world_2nd_edition.md' />
+        <hr />
         <PanelMarkdown filename='/content/a_strange_sinking_feeling.md' />
         <hr />
         <PanelCandyRaid />

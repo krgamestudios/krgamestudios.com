@@ -45,7 +45,7 @@ class App extends React.Component {
 
               <Route exact path='/astrangesinkingfeeling' render={()=><PanelRedirect target="https://docs.google.com/document/d/1Mmcb4S62s7JyFaoNve9dH2MJwowu0JmK-A5mEMGPaY4/edit?usp=sharing" />} />
 
-              <Route exact path='/castworld2' render={()=><PanelRedirect target="https://www.dropbox.com/s/m6ucxmvb3uxsw28/castworld_2_prototype.pdf?dl=0" />} />
+              <Route exact path='/castworld2' render={()=><PanelRedirect target="https://www.dropbox.com/s/jeo5wnnvq47zorx/castworld_2.pdf?dl=0" />} />
               <Route exact path='/castworld_errata' component={PageCastworldErrata} />
 
               <Route exact path='/mailing_list' component={PageMailingList} />
