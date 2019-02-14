@@ -15,6 +15,7 @@ import PageMonsterStalker from './pages/page_monster_stalker.jsx';
 import PageGenericPlatformFighter from './pages/page_generic_platform_fighter.jsx';
 import PageMailingList from './pages/page_mailing_list.jsx';
 import PageCastworldErrata from './pages/page_castworld_errata.jsx';
+import PageJobs from './pages/page_jobs.jsx';
 import PageNotFound from './pages/page_not_found.jsx';
 
 class App extends React.Component {
@@ -49,6 +50,8 @@ class App extends React.Component {
               <Route exact path='/castworld_errata' component={PageCastworldErrata} />
 
               <Route exact path='/mailing_list' component={PageMailingList} />
+              <Route exact path='/jobs' component={PageJobs} />
+
               <Route component={PageNotFound} />
             </Switch>
           </div>
