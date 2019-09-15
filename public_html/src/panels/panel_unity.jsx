@@ -1,5 +1,5 @@
 import React from 'react';
-import Unity from 'react-unity-webgl';
+import Unity, { UnityContent } from 'react-unity-webgl';
 
 class PanelUnity extends React.Component {
   constructor(props) {
@@ -16,8 +16,10 @@ class PanelUnity extends React.Component {
     let src='/unity/' + this.state.name + '/Build/' + this.state.name + '.json';
     let lod='/unity/' + this.state.name + '/Build/UnityLoader.js';
 
+    let content = new UnityContent(src, lod);
+
     return (
-      <Unity src={src} loader={lod} width={this.state.width} height={this.state.height} />
+      <Unity unityContent={content} width={this.state.width} height={this.state.height} />
     );
   }
 }
