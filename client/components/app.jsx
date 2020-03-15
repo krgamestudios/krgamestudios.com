@@ -6,6 +6,8 @@ import Loadable from 'react-loadable';
 import Header from './panels/header.jsx';
 import Footer from './panels/footer.jsx';
 
+import MarkdownWrapper from './pages/markdown_wrapper.jsx';
+
 //lazy route loading (with error handling)
 let LazyRoute = (lazyProps) => {
 	const component = Loadable({
@@ -46,6 +48,9 @@ class App extends React.Component {
 				<div className='central'>
 					<Switch>
 						<LazyRoute exact path='/' component={() => import('./pages/home.jsx')} />
+						<LazyRoute path='/games' component={() => import('./pages/games.jsx')} />
+						<LazyRoute path='/coding' component={() => import('./pages/coding.jsx')} />
+						<LazyRoute path='/about' component={async () => () => <MarkdownWrapper url={require('../../public/content/about.md').default} />} />
 
 						<LazyRoute path='*' component={() => import('./pages/not_found.jsx')} />
 					</Switch>

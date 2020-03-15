@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Brands from '../panels/brands.jsx';
+import Markdown from '../panels/markdown.jsx';
 
 class Home extends React.Component {
 	constructor(props) {
@@ -13,7 +14,17 @@ class Home extends React.Component {
 				<Brands />
 				<h1>Welcome!</h1>
 				<hr />
-				<p>The latest project goes here.</p>
+				<div className='table'>
+					<div className='row'>
+						<div className='col' style={{alignItems: 'flex-start'}}>
+							<Markdown url={require('../../../public/content/games/potion_school.md').default} />
+						</div>
+
+						<div className='col' style={{alignItems: 'flex-start'}}>
+							<Markdown url={require('../../../public/content/games/egg_trainer.md').default} />
+						</div>
+					</div>
+				</div>
 			</div>
 		);
 	}

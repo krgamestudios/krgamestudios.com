@@ -2,7 +2,6 @@
 logs/**
 /**/coverage
 /**/node_modules
-/**/dl
 
 #passwords
 /**/*.pwd

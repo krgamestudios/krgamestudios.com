@@ -82,7 +82,7 @@ module.exports = env => {
 		},
 		plugins: [
 			new CleanWebpackPlugin({
-				cleanOnceBeforeBuildPatterns: ['*', '!content*', '!img*']
+				cleanOnceBeforeBuildPatterns: ['*', '!content*', '!img*', '!dl*']
 			}),
 			new MiniCssExtractPlugin({
 				filename: "[name].[hash].css"
