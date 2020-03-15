@@ -1,0 +1,56 @@
+{
+  "name": "krgamestudios.com",
+  "version": "3.0.0",
+  "description": "My Website",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "webpack": "webpack --mode=development --env=development --config webpack.config.js",
+    "webpack-production": "webpack --mode=production --env=production --config webpack.config.js",
+    "pull": "git pull && npm run webpack-production && npm restart",
+    "dev": "webpack-dev-server --mode=development --env=development --config webpack.config.js",
+    "analyzer": "webpack --mode=development --env=analyzer --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krgamestudios/krgamestudios.com.git"
+  },
+  "author": "Kayne Ruse",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/krgamestudios/krgamestudios.com/issues"
+  },
+  "homepage": "https://github.com/krgamestudios/krgamestudios.com#readme",
+  "devDependencies": {
+    "@babel/core": "^7.8.7",
+    "@babel/preset-env": "^7.8.7",
+    "@babel/preset-react": "^7.8.3",
+    "babel-loader": "^8.0.6",
+    "bootstrap": "^4.4.1",
+    "clean-webpack-plugin": "^3.0.0",
+    "compression-webpack-plugin": "^3.1.0",
+    "copy-webpack-plugin": "^5.1.1",
+    "css-loader": "^3.4.2",
+    "cssnano": "^4.1.10",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.9.0",
+    "postcss-import": "^12.0.1",
+    "postcss-loader": "^3.0.0",
+    "postcss-preset-env": "^6.7.0",
+    "react": "^16.13.0",
+    "react-bootstrap": "^1.0.0-beta.17",
+    "react-dom": "^16.13.0",
+    "react-hot-loader": "^4.12.20",
+    "react-loadable": "^5.5.0",
+    "react-router": "^5.1.2",
+    "react-router-bootstrap": "^0.25.0",
+    "react-router-dom": "^5.1.2",
+    "webpack": "^4.42.0",
+    "webpack-bundle-analyzer": "^3.6.1",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  },
+  "dependencies": {}
+}
