@@ -1,36 +1,39 @@
 import React from 'react';
-import { LinkContainer } from 'react-router-bootstrap';
-import { Nav } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 class Header extends React.Component {
 	render() {
 		const linkStyle = {
-			color: '#fefefe'
+			color: '#fefefe',
+			minWidth: '80px',
+			textAlign: 'center',
+			alignSelf: 'center'
 		};
 
 		return (
-			<header className='page-header centered'>
-				<LinkContainer to='/'>
-					<img src='/img/logo_400x400.png' />
-				</LinkContainer>
+			<header className='panel'>
+				<div className='panel centered mobile hide' style={{flexDirection: 'row'}}>
+					<Link href='/' style={linkStyle}>Home</Link>
+					<Link href='/games' style={linkStyle}>Games</Link>
+					<Link to='/'>
+						<img src='/img/logo_400x400.png' width='80px' />
+					</Link>
+					<Link href='/coding' style={linkStyle}>Coding</Link>
+					<Link href='/about' style={linkStyle}>About</Link>
+				</div>
 
-				<Nav>
-					<Nav.Item>
-						<Nav.Link href='/' style={linkStyle}>Home</Nav.Link>
-					</Nav.Item>
+				<div className='panel centered mobile show'>
+					<Link to='/'>
+							<img src='/img/logo_400x400.png' width='80px' />
+					</Link>
 
-					<Nav.Item>
-						<Nav.Link href='/games' style={linkStyle}>Games</Nav.Link>
-					</Nav.Item>
-
-					<Nav.Item>
-						<Nav.Link href='/coding' style={linkStyle}>Coding</Nav.Link>
-					</Nav.Item>
-
-					<Nav.Item>
-						<Nav.Link href='/about' style={linkStyle}>About</Nav.Link>
-					</Nav.Item>
-				</Nav>
+					<div className='panel' style={{flexDirection: 'row'}}>
+						<Link href='/' style={linkStyle}>Home</Link>
+						<Link href='/games' style={linkStyle}>Games</Link>
+						<Link href='/coding' style={linkStyle}>Coding</Link>
+						<Link href='/about' style={linkStyle}>About</Link>
+					</div>
+				</div>
 			</header>
 		);
 	}
