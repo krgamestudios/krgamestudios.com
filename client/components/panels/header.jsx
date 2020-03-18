@@ -13,13 +13,13 @@ class Header extends React.Component {
 		return (
 			<header className='panel'>
 				<div className='panel centered mobile hide' style={{flexDirection: 'row'}}>
-					<Link href='/' style={linkStyle}>Home</Link>
-					<Link href='/games' style={linkStyle}>Games</Link>
+					<Link to='/' style={linkStyle}>Home</Link>
+					<Link to='/games' style={linkStyle}>Games</Link>
 					<Link to='/'>
 						<img src='/img/logo_400x400.png' width='80px' />
 					</Link>
-					<Link href='/coding' style={linkStyle}>Coding</Link>
-					<Link href='/about' style={linkStyle}>About</Link>
+					<Link to='/coding' style={linkStyle}>Coding</Link>
+					<Link to='/about' style={linkStyle}>About</Link>
 				</div>
 
 				<div className='panel centered mobile show'>
@@ -28,10 +28,10 @@ class Header extends React.Component {
 					</Link>
 
 					<div className='panel' style={{flexDirection: 'row'}}>
-						<Link href='/' style={linkStyle}>Home</Link>
-						<Link href='/games' style={linkStyle}>Games</Link>
-						<Link href='/coding' style={linkStyle}>Coding</Link>
-						<Link href='/about' style={linkStyle}>About</Link>
+						<Link to='/' style={linkStyle}>Home</Link>
+						<Link to='/games' style={linkStyle}>Games</Link>
+						<Link to='/coding' style={linkStyle}>Coding</Link>
+						<Link to='/about' style={linkStyle}>About</Link>
 					</div>
 				</div>
 			</header>
