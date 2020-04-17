@@ -7,6 +7,7 @@ import Header from './panels/header.jsx';
 import Footer from './panels/footer.jsx';
 
 import MarkdownWrapper from './pages/markdown_wrapper.jsx';
+import Redirect from './pages/redirect.jsx';
 
 //lazy route loading (with error handling)
 let LazyRoute = (lazyProps) => {
@@ -51,6 +52,8 @@ class App extends React.Component {
 						<LazyRoute path='/games' component={() => import('./pages/games.jsx')} />
 						<LazyRoute path='/coding' component={() => import('./pages/coding.jsx')} />
 						<LazyRoute path='/about' component={async () => () => <MarkdownWrapper url={require('../../public/content/about.md').default} />} />
+
+						<Route exact path='/astrangesinkingfeeling' render={()=><Redirect target='https://docs.google.com/document/d/1Mmcb4S62s7JyFaoNve9dH2MJwowu0JmK-A5mEMGPaY4/edit?usp=sharing' />} />
 
 						<LazyRoute path='*' component={() => import('./pages/not_found.jsx')} />
 					</Switch>
