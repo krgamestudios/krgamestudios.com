@@ -53,6 +53,7 @@
     "webpack-dev-server": "^3.10.3"
   },
   "dependencies": {
-    "@babel/compat-data": "^7.9.0"
+    "@babel/compat-data": "^7.9.0",
+    "react-unity-webgl": "^7.1.10"
   }
 }

@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import Loadable from 'react-loadable';
+import Unity, { UnityContent } from 'react-unity-webgl';
 
 //components
 import Header from './panels/header.jsx';
@@ -55,6 +56,8 @@ class App extends React.Component {
 
 						<Route exact path='/astrangesinkingfeeling' render={()=><Redirect target='https://docs.google.com/document/d/1Mmcb4S62s7JyFaoNve9dH2MJwowu0JmK-A5mEMGPaY4/edit?usp=sharing' />} />
 						<Route exact path='/candy' render={()=><Redirect target='https://candyraid.com/prototype' />} />
+
+						<Route exact path='/keepitalive' render={()=><div className='page'><Unity className='panel' unityContent={new UnityContent('unity/KeepItAlive/Build/KeepItAlive.json', 'unity/KeepItAlive/Build/UnityLoader.js')} /></div>} />
 
 						<LazyRoute path='*' component={() => import('./pages/not_found.jsx')} />
 					</Switch>
