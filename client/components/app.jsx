@@ -59,6 +59,8 @@ class App extends React.Component {
 
 						<Route exact path='/keepitalive' render={()=><div className='page'><Unity className='panel' unityContent={new UnityContent('unity/KeepItAlive/Build/KeepItAlive.json', 'unity/KeepItAlive/Build/UnityLoader.js')} /></div>} />
 
+						<LazyRoute path='/competition' component={async () => () => <MarkdownWrapper url={require('../../public/content/competition.md').default} />} />
+
 						<LazyRoute path='*' component={() => import('./pages/not_found.jsx')} />
 					</Switch>
 					<Footer />

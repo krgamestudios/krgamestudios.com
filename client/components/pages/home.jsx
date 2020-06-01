@@ -16,6 +16,14 @@ class Home extends React.Component {
 				<hr />
 				<div className='table'>
 					<div className='row'>
+						<div className='col'>
+							<Markdown url={require('../../../public/content/competition_short.md').default} />
+						</div>
+					</div>
+
+					<hr />
+
+					<div className='row'>
 						<div className='col' style={{alignItems: 'flex-start'}}>
 							<Markdown url={require('../../../public/content/games/potion_school.md').default} />
 						</div>
