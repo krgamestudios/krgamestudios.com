@@ -25,7 +25,7 @@ My Discord: https://discord.gg/FQmz8TN
 ## What I'm offering
 
 * The prizes listed above
-* 50% of net profits of the game (industry standard is 30%)
+* 80% of net profits of the game (industry standard is 70%)
 * 15 years of independent gamedev experience to help you bring a game to market
 * My connections and my small reach
 * My development expertise where it's needed
