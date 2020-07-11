@@ -6,8 +6,4 @@ I have tons of hands-on experience, having taught myself most of what I know. I'
 
 You can contact me at [kayneruse@gmail.com](mailto:kayneruse@gmail.com).
 
-Here's a list of my up-to-date resumes:
-
-* [Game Development](/dl/Gamedev.pdf)
-* [Web Developent](/dl/Webdev.pdf)
-* [General Labourer](/dl/General.pdf)
+[Click here for my up-to-date resume](/dl/Resume.pdf).
