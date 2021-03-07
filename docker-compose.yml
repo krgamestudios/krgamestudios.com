@@ -1,0 +1,33 @@
+version: "3.6"
+
+services:
+  krgamestudios:
+    container_name: krgamestudios
+    build: .
+    volumes:
+      - static_volume:/app/public
+
+  nginx:
+    image: nginx
+    container_name: krgamestudios-nginx
+    restart: always
+    volumes:
+      - ./traefik-files:/etc/nginx/conf.d
+      - static_volume:/static
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.nginxrouter.rule=Host(`krgamestudios.com`)"
+      - "traefik.http.routers.nginxrouter.entrypoints=websecure"
+      - "traefik.http.routers.nginxrouter.tls.certresolver=myresolver"
+      - "traefik.http.routers.nginxrouter.service=nginxservice@docker"
+      - "traefik.http.services.nginxservice.loadbalancer.server.port=3000"
+    networks:
+      - server-network
+
+volumes:
+  static_volume:
+    driver: local
+
+networks:
+  server-network:
+    external: true
