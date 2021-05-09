@@ -7,6 +7,7 @@
     "doc": "docs"
   },
   "scripts": {
+    "start": "npm run webpack-production",
     "webpack": "webpack --mode=development --env=development --config webpack.config.js",
     "webpack-production": "webpack --mode=production --env=production --config webpack.config.js",
     "pull": "git pull && npm run webpack-production",
