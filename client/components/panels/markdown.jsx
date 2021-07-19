@@ -1,5 +1,6 @@
 import React from 'react';
-import ReactMarkdown from 'react-markdown/with-html';
+import ReactMarkdown from 'react-markdown';
+import rehypeRaw from 'rehype-raw';
 import PropTypes from 'prop-types';
 
 class Markdown extends React.Component {
@@ -27,7 +28,7 @@ class Markdown extends React.Component {
 	render() {
 		if (this.state.content) {
 			return (
-				<ReactMarkdown source={this.state.content} escapeHtml={false} {...this.props} />
+				<ReactMarkdown rehypePlugins={[rehypeRaw]} source={this.state.content} escapeHtml={false} {...this.props} />
 			);
 		}
 

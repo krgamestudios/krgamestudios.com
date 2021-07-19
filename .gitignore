@@ -11,6 +11,9 @@ auth.json
 #log files
 /**/*.log
 
+#config files
+docker-compose.yml
+
 #output files
 public/*.html
 public/*.js

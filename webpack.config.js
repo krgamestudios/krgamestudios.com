@@ -15,8 +15,7 @@ module.exports = env => {
 		entry: `./client/index.jsx`,
 		output: {
 			path: path.resolve(__dirname, 'public'),
-			filename: '[name].[hash].js',
-			sourceMapFilename: '[name].[hash].js.map',
+			filename: '[name].[fullhash].js',
 			publicPath: '/'
 		},
 		devtool: 'source-map',
@@ -41,14 +40,7 @@ module.exports = env => {
 						MiniCssExtractPlugin.loader, //one CSS file for every js file
 						"css-loader",
 						{
-							loader: 'postcss-loader',
-							options: {
-								plugins: (loader) => [
-									require('postcss-import')({ root: loader.resourcePath }),
-									require('postcss-preset-env')(),
-									require('cssnano')(),
-								]
-							}
+							loader: 'postcss-loader'
 						}
 					]
 				},
